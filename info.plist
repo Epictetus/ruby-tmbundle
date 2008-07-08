@@ -583,6 +583,7 @@
 		<string>50C56AC8-48F3-42A0-AF10-8164464AFAEF</string>
 		<string>397FA09F-A30F-4EE4-920C-318D5004EE97</string>
 		<string>332AA973-AA71-48CB-AEE9-1D71E11019AC</string>
+		<string>8EBBB26F-980E-404E-8366-74E5772298F6</string>
 		<string>678BDB83-FBBD-4E8E-BE0B-E1A98AECB247</string>
 		<string>A4E89D97-D5ED-48BB-B5FF-1BFB79211FCD</string>
 		<string>8CEF9711-88D5-4202-AFB9-29EF4EFD25C1</string>
@@ -639,20 +640,7 @@
 		<string>6D75102B-6E51-4360-8F12-BE12327B6AE6</string>
 		<string>AEDD6A5F-417F-4177-8589-B07518ACA9DE</string>
 		<string>1A7701FA-D866-498C-AD4C-7846538DB535</string>
-<<<<<<< HEAD
 		<string>8EBBB26F-980E-404E-8366-74E5772298F6</string>
-		<string>397FA09F-A30F-4EE4-920C-318D5004EE97</string>
-		<string>50C56AC8-48F3-42A0-AF10-8164464AFAEF</string>
-		<string>C122CD92-DDBE-4869-9C7A-CC2B254C9411</string>
-		<string>678BDB83-FBBD-4E8E-BE0B-E1A98AECB247</string>
-		<string>05EE1046-5ED7-48F5-8693-1F066163B2F4</string>
-		<string>34FEBB9F-73CD-4DD4-A0A3-1CF2A5E3DE78</string>
-		<string>33969819-62C5-4E03-B824-C2337205F364</string>
-		<string>A7BF14E6-59B1-42E5-8755-8A72BF13685E</string>
-||||||| merged common ancestors
-=======
-		<string>8EBBB26F-980E-404E-8366-74E5772298F6</string>
->>>>>>> Rounding out the file and path snippets and moving them into their own menu.
 	</array>
 	<key>uuid</key>
 	<string>467B298F-6227-11D9-BFB1-000D93589AF6</string>
