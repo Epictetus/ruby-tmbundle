@@ -3,11 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>class ${1:`#!/usr/bin/env ruby
-    require 'rubygems'
-    require "active_support"
-    puts (ENV['TM_FILENAME'] || 'some_model.rb').gsub(/\.rb$/, '').camelize.singularize
-	`}
+	<string>class ${1:${TM_FILENAME/(?:\A|_)([A-Za-z0-9]+)(?:\.rb)?/(?2::\u$1)/g}}
 	$0
 end</string>
 	<key>name</key>
