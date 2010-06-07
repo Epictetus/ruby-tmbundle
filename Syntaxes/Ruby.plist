@@ -57,6 +57,9 @@
 		<string>gemspec</string>
 		<string>irbrc</string>
 		<string>capfile</string>
+		<string>Capfile</string>
+		<string>Gemfile</string>
+		<string>config.ru</string>
 	</array>
 	<key>firstLineMatch</key>
 	<string>^#!/.*\bruby</string>
@@ -268,7 +271,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>\b(require|gem)\b</string>
+			<string>\b(require|gem)(?=\(|\s)</string>
 			<key>captures</key>
 			<dict>
 				<key>1</key>
@@ -413,7 +416,7 @@
 			<key>contentName</key>
 			<string>variable.parameter.function.ruby</string>
 			<key>end</key>
-			<string>\)</string>
+			<string>\)\s*$</string>
 			<key>endCaptures</key>
 			<dict>
 				<key>0</key>
