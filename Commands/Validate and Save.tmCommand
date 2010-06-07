@@ -9,12 +9,13 @@
 
 require ENV['TM_SUPPORT_PATH'] + '/lib/textmate'
 
-compiler_ruby = `which rbx`.strip
-if compiler_ruby.length == 0
-  compiler_ruby = ENV['TM_RUBY'] || `which ruby`.strip
+result = `"${TM_RUBY:=ruby}" -wc 2&gt;&amp;1`
+
+if result =~ /-:(\d+)/ &amp;&amp; `"${TM_RUBY:=ruby}" -e "puts RUBY_VERSION"` =~ /^1\.8/
+  compiler_ruby = `which rbx`.strip
+  result = `#{compiler_ruby} -wc "$TM_FILEPATH" 2&gt;&amp;1` if compiler_ruby.length &gt; 0
 end
 
-result = `#{compiler_ruby} -wc "$TM_FILEPATH" 2&gt;&amp;1`
 print result
 TextMate.go_to :line =&gt; $1 if result =~ /:(\d+):/
 </string>
