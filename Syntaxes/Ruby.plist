@@ -417,7 +417,7 @@
 			<key>contentName</key>
 			<string>variable.parameter.function.ruby</string>
 			<key>end</key>
-			<string>\)\s*$</string>
+			<string>\)\s*(;|$)</string>
 			<key>endCaptures</key>
 			<dict>
 				<key>0</key>
