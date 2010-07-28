@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>require File.dirname(${1:__FILE__})${2: + "/$0"}</string>
+	<string>require File.expand_path(${1:'../${2}'}, __FILE__)</string>
 	<key>name</key>
-	<string>require File.dirname(__FILE__) + "/.."</string>
+	<string>require File.expand_path('../', __FILE__)</string>
 	<key>scope</key>
 	<string>source.ruby</string>
 	<key>tabTrigger</key>
