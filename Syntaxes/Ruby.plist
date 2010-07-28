@@ -60,6 +60,7 @@
 		<string>Capfile</string>
 		<string>Gemfile</string>
 		<string>config.ru</string>
+		<string>god</string>
 	</array>
 	<key>firstLineMatch</key>
 	<string>^#!/.*\bruby</string>
